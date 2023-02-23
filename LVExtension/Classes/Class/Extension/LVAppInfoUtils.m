@@ -2,7 +2,7 @@
 //  LVAppInfoUtils.m
 //  LVWebContainer
 //
-//  Created by lvhongyang1 on 2022/10/14.
+//  Created by trhyl on 2023/02/23.
 //
 
 #import "LVAppInfoUtils.h"
