@@ -1,0 +1,22 @@
+{
+  "name": "LVExtension",
+  "version": "0.1.0",
+  "summary": "A short description of LVExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/newhl/LVExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "newhl": "954777574@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/newhl/LVExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LVExtension/Classes/**/*"
+}

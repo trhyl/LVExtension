@@ -1,0 +1,6 @@
+framework module LVExtension {
+  umbrella header "LVExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

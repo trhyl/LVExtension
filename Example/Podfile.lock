@@ -1,0 +1,16 @@
+PODS:
+  - LVExtension (0.1.0)
+
+DEPENDENCIES:
+  - LVExtension (from `../`)
+
+EXTERNAL SOURCES:
+  LVExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LVExtension: d1808baa8cdf084ab271b05dbf8c7af6efc1392e
+
+PODFILE CHECKSUM: b126e4b262689b1bf592d635e8376ab6dc379cd6
+
+COCOAPODS: 1.10.0
