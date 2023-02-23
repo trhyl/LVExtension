@@ -1,9 +1,9 @@
 //
 //  UIColor+LVExtension.h
-//  LVAppModule_Example
+//  LVExtension_code
 //
-//  Created by trhyl on 2021/12/21.
-//  Copyright © 2021 com.lv All rights reserved.
+//  Created by trhyl on 2023/02/23.
+//  Copyright © 2023 com.lv All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

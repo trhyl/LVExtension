@@ -1,9 +1,9 @@
 //
 //  NSObject+LVExtension.h
-//  LVAppModule_Example
+//  LVExtension_code
 //
-//  Created by trhyl on 2021/12/23.
-//  Copyright © 2021 com.lv All rights reserved.
+//  Created by trhyl on 2023/02/23.
+//  Copyright © 2023 com.lv All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -23,9 +23,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (BOOL)lv_validString:(NSString *)string;
 
 + (void)safeExchangeInstanceMethod:(Class)aClass oldSel:(SEL)oldSEL newSel:(SEL)newSEL;
-
-// author:tanggaowei 2019/11/29 
-+ (id)error2Json:(NSError*)error;
 
 + (NSString *)lv_removeWhitespace:(NSString *)string;
 

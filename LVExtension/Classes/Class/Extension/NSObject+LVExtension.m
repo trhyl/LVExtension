@@ -1,9 +1,9 @@
 //
 //  NSObject+LVExtension.m
-//  LVAppModule_Example
+//  LVExtension_code
 //
-//  Created by trhyl on 2021/12/23.
-//  Copyright © 2021 com.lv All rights reserved.
+//  Created by trhyl on 2023/02/23.
+//  Copyright © 2023 com.lv All rights reserved.
 //
 
 #import "NSObject+LVExtension.h"
@@ -39,22 +39,6 @@
     } else {
         method_exchangeImplementations(oldMethod, newMethod);
     }
-}
-
-+ (id)error2Json:(NSError*) error {
-    if (error && error.userInfo) {
-        if ([error.userInfo isKindOfClass:[NSDictionary class]]) {
-            NSDictionary *userInfo = (NSDictionary*) error.userInfo;
-            NSArray *allKeys = userInfo.allKeys;
-            for (int i = 0; i < allKeys.count; ++i) {
-                id value = userInfo[allKeys[i]];
-                if ([value isKindOfClass:[NSData class]]) {
-                    return [NSJSONSerialization JSONObjectWithData:value options:NSJSONReadingMutableContainers error:nil];
-                }
-            }
-        }
-    }
-    return nil;
 }
 
 + (NSString *)lv_removeWhitespace:(NSString *)string {

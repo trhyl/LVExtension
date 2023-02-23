@@ -1,6 +1,6 @@
 //
 //  LVAppInfoUtils.h
-//  LVWebContainer
+//  LVExtension_code
 //
 //  Created by trhyl on 2023/02/23.
 //
