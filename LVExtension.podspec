@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/trhyl/LVExtension'
+  s.homepage         = 'https://github.com/trhyl/LVExtension.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'newhl' => 'lhy@011@foxmail.com' }
   s.source           = { :git => 'https://github.com/trhyl/LVExtension.git', :tag => s.version.to_s }
